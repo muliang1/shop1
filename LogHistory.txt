@@ -1,0 +1,15 @@
+[2018-06-25 12:42:50.709] [000004] [localhost_3306] [MYSQL]
+SHOW VARIABLES LIKE 'lower_case_%'
+
+[2018-06-25 12:42:50.709] [000004] [localhost_3306] [MYSQL]
+SHOW VARIABLES LIKE 'profiling'
+
+[2018-06-25 12:42:50.709] [000004] [localhost_3306] [MYSQL]
+SHOW DATABASES
+
+[2018-06-25 12:42:52.698] [000005] [localhost_3306] [MYSQL]
+SELECT @@character_set_database, @@collation_database
+
+[2018-06-25 12:42:52.745] [000005] [localhost_3306] [MYSQL]
+SHOW FULL TABLES WHERE Table_type != 'VIEW'
+
